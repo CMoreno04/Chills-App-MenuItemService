@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: menuitemservice
+
+  data:
+    mongodb:
+      # MongoDB specific settings
+      uri: mongodb://localhost:27017
+      database: chillsdb
+    
+  # Include if you need to configure server properties
+server:
+  port: 8081
+
+# Logging configuration
+logging:
+  level:
+    org.springframework: INFO
+    com.chillsapp: DEBUG
+
+# If you have any other custom configurations, you can add them here
